@@ -1,0 +1,6 @@
+export{default as CardComponent} from "./cardComponent/cardComponent"
+// export{default as Headercomponent} from "./headerComponent"
+// export{default as footerComponent} from "./footerComponent"
+export{default as InputComponent} from "./inputComponent/inputComponent"
+// export{default as buttonComponent} from "./buttonComponent"
+export { default as SearchComponent } from "./searchComponent/searchComponent"

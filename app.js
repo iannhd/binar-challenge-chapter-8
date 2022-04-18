@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express')
 const app = express()
 const cors = require('cors')
@@ -11,6 +12,8 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 app.use(errorHandler)
 
+
+// console.log(process.env)
 /**
  * @Routes /api
  * entrypoint for all API routes
@@ -20,3 +23,4 @@ app.use("/api", apiRouter)
 app.listen(PORT, () => {
   console.log(`Listening on http://localhost:${PORT}`)
 })
+
